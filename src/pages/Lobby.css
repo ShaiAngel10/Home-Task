@@ -1,0 +1,64 @@
+/* Lobby.css */
+.lobby-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Ensures footer stays at the bottom */
+    padding: 2rem;
+    background-color: #f7f9fc;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .lobby-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 2rem;
+  }
+  
+  .lobby-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .lobby-card {
+    width: 250px;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .lobby-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .lobby-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .lobby-card-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .lobby-footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    padding: 1rem 0;
+    text-align: center;
+    color: #777;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+  }
+  
